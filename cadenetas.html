@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadenetas</title>
+    <link rel="stylesheet" href="cadenetas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+</head>
+<body>
+    <div class="menu">
+        <img src="img/logo.png" alt="Logo Cadenetas" class="logo">
+        <nav>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="somos.html">Quiénes Somos</a></li>
+                <li><a href="coleccion.html">Productos</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav> 
+    </div>
+
+    <section class="banner">
+        <div class="overlay">
+            <div>
+                <h2>Conejitos - Edición Pascua</h2>
+                <a href="coleccion.html" class="btn-coleccion">Colección</a>
+            </div> 
+        </div>
+    </section>
+
+    <section class="bienvenida">
+        <p class="subtitulo">DESDE VERANO 2019</p>
+        <h1>Bienvenidos a Cadenetas</h1>
+        <p class="descripcion">
+            ¡hola! ¡qué lindo que tu camino te lleve a nuestro pequeño mundo 
+            de Amiguriverse!. Me presento rapidamente: Mi nombre es Constanza. 
+            Soy estudiante de Ingeniería Civil en Informática y una entusiasta
+            de los amigurumis y del crochet, además de ser tu guía en Cadenetas.
+            ¡conozco cada puntada aquí como el dorso de mi mano, literalmente! Porque
+            mis manos crearon toda la ternura de ganchillo que encontrarás por aquí. 
+            Por supuesto, no estoy solo en este pequeño universo, tengo una persona
+            maravillosa que me acompaña en este viaje, mi mamá, quien es la que me ayuda
+            a crear cada uno de los productos que verás por aquí. Ella es la que se encarga
+            que todo quede hermoso y de los detalles que hacen la diferencia.            
+        </p>
+        <a href="somos.html" class="btn-secundario">Conócenos</a>
+    </section>   
+
+    <section class="seccion-flex-colorida">
+        <div class="imagen">
+            <img src="img/ratona.jpeg" alt="Ratoncita">
+        </div>
+        <div class="texto">
+            <h2><i class="fa-solid fa-heart" aria-hidden="true"></i>Amigurumis</h2>
+            <p>La historia de los amigurumis tiene raíces en Japón, donde el término "amigurumi"
+                se refiere a muñecos de ganchillo o tejido. La palabra "ami" significa "tejer" y 
+                "nuigurumi" significa "muñeco de peluche". Estos adorables muñecos han ganado 
+                popularidad en todo el mundo debido a su ternura y versatilidad. Se pueden crear 
+                en una variedad de formas, desde animales hasta personajes de fantasía, y son 
+                apreciados tanto por su estética como por la habilidad que se requiere para 
+                crearlos. Los amigurumis son un símbolo de la creatividad y la dedicación de 
+                quienes los tejen, y su encanto ha conquistado corazones en todo el planeta.
+            </p>
+        </div>
+    </section>
+
+    <section class="seccion-flex-colorida inversa">
+        <div class="texto">
+            <h2><i class="fa-solid fa-scissors" aria-hidden="true"></i>Crochet</h2>
+            <p>
+                La historia del crochet es antigua y no está completamente definida, pero se estima
+                que tiene sus orígenes en el siglo XVI en Europa, donde se utilizaba para crear 
+                encajes y bordados en la ropa de la nobleza. Sus inicios pueden remontarse a formas 
+                de costura en China, Turquía, India, Persia y África del Norte, que llegaron a Europa 
+                en los años 1700 y se conocieron como "tambouring". <br><br>
+                El crochet es una técnica textil que ha evolucionado a lo largo de la historia, con 
+                raíces en diversas culturas y tradiciones, y que se ha mantenido viva a través de la 
+                creatividad y la práctica de generaciones de artesanos. 
+            </p>
+        </div>
+        <div class="imagen">
+            <img src="img/crochet.jpeg" alt="Crochet">
+        </div>
+    </section>
+
+    <section class="registro">
+        <div class="contenido-registro">
+            <h2><i class="fa-solid fa-envelope-open-text"></i>Únete a nuestro Club de Noticias</h2>
+            <ul class="beneficios">
+                <li><i class="fa-solid fa-gift"></i>Recibe descuentos exclusivos</li>
+                <li><i class="fa-solid fa-trophy"></i>Participa en sorteos y concursos</li>   
+                <li><i class="fa-solid fa-box-open"></i>Descubre nuevos productos antes que nadie</li>
+                <li><i class="fa-solid fa-calendar-day"></i>Entérate de eventos y ferias</li>
+                <li><i class="fa-solid fa-chalkboard-user"></i>Accede a talleres y cursos</li>
+            </ul>
+            <a href="registrate.html" class="btn-registro">Regístrate</a>
+        </div>    
+    </section>
+
+    <footer class="footer">
+        <div class="footer-contenido">
+            <p>© 2025 <strong>Cadenetas</strong>. Todos los derechos reservados.</p>
+            <p>Diseñado con amor por Constanza 🧶</p>
+            <div class="footer-redes">
+                <a href="https://www.instagram.com/cadenetas_osorno/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/cadenetas.osorno" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () =>{
+            const section = document.querySelector('.seccion-flex-colorida');
+            const observer = new IntersectionObserver(entries =>{
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                    }
+                });
+            }, {threshold: 0.2});
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>

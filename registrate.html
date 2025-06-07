@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Cadenetas</title>
+    <link rel="stylesheet" href="cadenetas.css">
+    <link rel="stylesheet" href="registrate.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="menu">
+        <img src="img/logo.png" alt="Logo Cadenetas" class="logo" />
+        <nav>
+            <ul>
+                <li><a href="cadenetas.html">Inicio</a></li>
+                <li><a href="somos.html">Quiénes Somos</a></li>
+                <li><a href="coleccion.html">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="formulario">
+        <div class="form-box">
+            <img src="img/logo.png" alt="Logo" class="logo-form">
+            <h1>Formulario de Registro</h1>
+            <form action="#">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido" required>
+                </div>
+                <div class="campo">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" name="email" id="email" placeholder="Escribe tu correo electrónico" required>
+                </div>
+                <div class="campo">
+                    <label for="pass">Contraseña:</label>
+                    <input type="password" name="pass" id="pass" minlength="8" maxlength="16" required>
+                </div>
+                <div class="campo">
+                    <label for="pass2">Confirmar la contraseña:</label>
+                    <input type="text" name="pass2" id="pass2" minlength="8" maxlength="16" required>
+                </div>
+                <div class="campo">
+                    <label for="fecha-nacimiento">Fecha de nacimiento:</label>  
+                    <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" required>
+                </div>
+
+                <div class="campo genero">
+                    <label class="label-block">Género:</label>
+                    <div class="radio-opciones">
+                        <label><input type="radio" name="genero" value="masculino" required>Masculino</label>
+                        <label><input type="radio" name="genero" value="femenino" required>Femenino</label>
+                        <label><input type="radio" name="genero" value="otro" required>Prefiero no decirlo</label>
+                    </div>    
+                </div>
+
+                <div class="campo">
+                    <label for="area">Cuéntanos sobre ti:</label>
+                    <textarea name="area" id="area" rows="4" placeholder="Tus pasatiempos, intereses..."></textarea>
+                </div>
+
+                <div class="campo">
+                    <label for="multiple">Selecciona un interés:</label>
+                    <select name="multiple" id="multiple">
+                        <option value="musica">Música</option>
+                        <option value="programacion">Programación</option>
+                        <option value="pelis">Películas</option>
+                        <option value="deporte">Deportes</option>
+                        <option value="libros">Libros</option>
+                    </select>
+                </div>
+
+                <div class="boton-centrado">
+                    <input type="submit" value="Registrarse">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-contenido">
+            <p>© 2025 Cadenetas. Todos los derechos reservados.</p>
+            <p>Diseñado con amor por Constanza 🧵</p>
+            <div class="footer-redes">
+                <a href="https://www.instagram.com/cadenetas_osorno/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/cadenetas.osorno" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
